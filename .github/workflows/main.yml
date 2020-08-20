@@ -5,8 +5,7 @@ name: Gatsby Publish GH-Pages
 
 on:
   push:
-    branches: gatsby-deploy-ghpages
-
+    branches: last-working
 jobs:
   build:
     runs-on: ubuntu-latest
