@@ -12,8 +12,8 @@
     "start": "gatsby develop"
   },
   "dependencies": {
-    "gatsby": "^2.24.47",
-    "gatsby-plugin-manifest": "^2.4.23",
+    "gatsby": "^2.23.3",
+    "gatsby-plugin-manifest": "^2.4.11",
     "gatsby-plugin-sitemap": "^2.2.21",
     "gatsby-theme-chronoblog": "^0.24.0",
     "react": "^16.12.0",
