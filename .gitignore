@@ -52,13 +52,13 @@ yarn-error.log
 .yarn-integrity
 .yarn/*
 # zero-install
-# !.yarn/cache
+!.yarn/cache
 !.yarn/releases
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
 # not using zero-install
-.pnp.*
+# .pnp.*
 
 # lock
 package-lock.json
