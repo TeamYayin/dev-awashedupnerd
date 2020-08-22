@@ -49,12 +49,18 @@ public
 
 # Yarn
 yarn-error.log
-.pnp/
-.pnp.js
 .yarn-integrity
+.yarn/*
+# zero-install
+# !.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+# not using zero-install
+.pnp.*
 
 # lock
-yarn.lock
 package-lock.json
 
 # dotenv environment variables file
