@@ -7,9 +7,13 @@ tags: ['note', 'nodejs', 'json', 'npm']
 #### Wildcards
 
 ```JSON
-//sample package.json
+// sample package.json
+
 "dependencies": {
-    "gatsby": "^2.23.3"
+  "gatsby": "^2.23.3"
+},
+"engines": {
+  "node": ">=10.15.0"
 }
 ```
 
@@ -17,7 +21,7 @@ tags: ['note', 'nodejs', 'json', 'npm']
 
 - `^`: if you write ^2.24.0, you want to update patch and minor releases: 2.24.2, 2.24.2 ..., 2.25.0 and so on but not from 3.0.0.
 
-- `*`: if you write \*, that means you accept all updates, in above including 3.0.0, 4.0.0 and so on.
+- `*`: if you write \*2.23.3, that means you accept all updates including 3.0.0, 4.0.0 and so on.
 
 - `latest`: want to use the latest version available.
 

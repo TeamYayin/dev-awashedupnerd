@@ -69,13 +69,6 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-sitemap`
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // remove tracking some time after release
-        trackingId: 'UA-162845368-1'
-      }
     }
   ]
 };
